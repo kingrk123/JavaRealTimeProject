@@ -1,0 +1,16 @@
+127.0.0.1 - - [02/Jun/2020:19:13:32 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:13:35 +0530] "GET /MyProject/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:13:35 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:13:42 +0530] "GET /MyProject/shipment/register HTTP/1.1" 200 14965
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:14:43 +0530] "POST /MyProject/shipment/save HTTP/1.1" 200 15112
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:14:49 +0530] "GET /MyProject/shipment/all HTTP/1.1" 200 9215
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:14:49 +0530] "GET /MyProject/resources/images/pdf.png HTTP/1.1" 200 11114
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:14:49 +0530] "GET /MyProject/resources/images/excel.png HTTP/1.1" 200 6348
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:14:55 +0530] "GET /MyProject/shipment/register HTTP/1.1" 200 14965
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:15:11 +0530] "POST /MyProject/shipment/save HTTP/1.1" 200 15112
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:15:19 +0530] "GET /MyProject/shipment/all HTTP/1.1" 200 9921
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:15:28 +0530] "GET /MyProject/shipment/edit?sid=1 HTTP/1.1" 200 10543
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:15:45 +0530] "GET /MyProject/shipment/all HTTP/1.1" 200 9921
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:15:50 +0530] "GET /MyProject/shipment/excel HTTP/1.1" 200 3544
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:15:57 +0530] "GET /MyProject/shipment/pdf HTTP/1.1" 200 1254
+0:0:0:0:0:0:0:1 - - [02/Jun/2020:19:15:58 +0530] "GET /MyProject/shipment/pdf HTTP/1.1" 200 1256

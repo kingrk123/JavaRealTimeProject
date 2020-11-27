@@ -1,0 +1,6 @@
+127.0.0.1 - - [02/Mar/2020:09:55:55 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:09:55:59 +0530] "GET /MyProject/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:09:55:59 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:09:56:14 +0530] "GET /MyProject/shipment/charts HTTP/1.1" 200 265
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:09:56:14 +0530] "GET /MyProject/resources/images/shipmentA.jpg HTTP/1.1" 200 24415
+0:0:0:0:0:0:0:1 - - [02/Mar/2020:09:56:14 +0530] "GET /MyProject/resources/images/shipmentB.jpg HTTP/1.1" 200 32692

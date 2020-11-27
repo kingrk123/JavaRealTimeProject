@@ -1,0 +1,87 @@
+package in.nit.model;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name ="shiptab")
+public class ShipmentType {
+	
+	@Id
+	@GeneratedValue
+	
+	@Column(name = "sid")
+	private Integer ShipId;
+	
+	@Column(name = "smode")
+	private String ShipMode;
+	
+	@Column(name = "scode")
+	private String ShipCode;
+	
+	@Column(name = "eship")
+	private String enbShip;
+	
+	@Column(name = "sgrd")
+	private String shipGrad;
+	
+	@Column(name = "sdesc")
+	private String ShipDesc;
+
+	public ShipmentType() {
+		super();
+	}
+
+	public Integer getShipId() {
+		return ShipId;
+	}
+
+	public void setShipId(Integer shipId) {
+		ShipId = shipId;
+	}
+
+	public String getShipMode() {
+		return ShipMode;
+	}
+
+	public void setShipMode(String shipMode) {
+		ShipMode = shipMode;
+	}
+
+	public String getShipCode() {
+		return ShipCode;
+	}
+
+	public void setShipCode(String shipCode) {
+		ShipCode = shipCode;
+	}
+
+	public String getEnbShip() {
+		return enbShip;
+	}
+
+	public void setEnbShip(String enbShip) {
+		this.enbShip = enbShip;
+	}
+
+	public String getShipGrad() {
+		return shipGrad;
+	}
+
+	public void setShipGrad(String shipGrad) {
+		this.shipGrad = shipGrad;
+	}
+
+	public String getShipDesc() {
+		return ShipDesc;
+	}
+
+	public void setShipDesc(String shipDesc) {
+		ShipDesc = shipDesc;
+	}
+
+	@Override
+	public String toString() {
+		return "ShipmentType [ShipId=" + ShipId + ", ShipMode=" + ShipMode + ", ShipCode=" + ShipCode + ", enbShip="
+				+ enbShip + ", shipGrad=" + shipGrad + ", ShipDesc=" + ShipDesc + "]";
+	}
+}

@@ -1,0 +1,12 @@
+127.0.0.1 - - [06/Mar/2020:14:03:19 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:03:29 +0530] "GET /MyProject/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:03:29 +0530] "GET /favicon.ico HTTP/1.1" 404 720
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:03:36 +0530] "GET /MyProject/uom/register HTTP/1.1" 200 1142
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:03:52 +0530] "POST /MyProject/uom/save HTTP/1.1" 200 1154
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:04:01 +0530] "POST /MyProject/uom/save HTTP/1.1" 200 1154
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:04:13 +0530] "POST /MyProject/uom/save HTTP/1.1" 200 1154
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:04:22 +0530] "GET /MyProject/part/register HTTP/1.1" 200 6293
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:04:49 +0530] "POST /MyProject/part/save HTTP/1.1" 200 6399
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:04:58 +0530] "GET /MyProject/part/all HTTP/1.1" 200 4762
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:04:58 +0530] "GET /MyProject/resources/images/excel.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Mar/2020:14:04:58 +0530] "GET /MyProject/resources/images/pdf.png HTTP/1.1" 304 -

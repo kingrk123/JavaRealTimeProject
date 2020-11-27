@@ -1,0 +1,5 @@
+package in.nit.dao.impl;
+
+public class ShipmentTypeDaoImpl {
+
+}

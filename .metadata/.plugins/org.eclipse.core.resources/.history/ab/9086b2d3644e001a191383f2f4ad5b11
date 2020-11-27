@@ -1,0 +1,29 @@
+package in.nit.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import in.nit.dao.IShipmentTypeDao;
+import in.nit.model.ShipmentType;
+import in.nit.service.IShipmentTypeService;
+
+@Controller
+@RequestMapping("/shipment")
+public class ShipmentTypeController {
+	/**
+	 * 1.This method is used to display
+	 * shipmentType Register Page
+	 * On URL :/register, GET
+	 */
+	@Autowired
+	private IShipmentTypeService service;
+	@RequestMapping(value = "/save", method = RequestMethod.POST)
+	public String saveShipment(
+			@ModelAttribute ShipmentType ShipmentType,) {
+		
+	}
+}

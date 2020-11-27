@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Page</title>
+</head>
+<body>
+	<H3>WELCOME TO SHIPMENT TYPE REGISTER PAGE</H3>
+	<pre>
+	Shipment Mode:
+		<select name="ShipMode">
+			<option>--Select--</option>
+			<option>Air</option>
+			<option>Ship</option>
+			<option>Train</option>
+			<option>Truck</option>
+		</select>
+	Shipment Code:
+		<input type="text" name="ShipCode"/>
+		
+	Enable Shipment:
+		<select name="enbShip">
+			<option>--Select--</option>
+			<option>Yes</option>
+			<option>No</option>
+		</select>	
+	Shipment Grade:
+		<input type="radio" name="ShipGrad" value="A">A
+		<input type="radio" name="ShipGrad" value="B">B
+		<input type="radio" name="ShipGrad" value="C">C
+	Description:
+		<textarea name="ShipDesc"></textarea>
+		
+		<input type="submit" value="CREATE SHIPMENT"/>
+	</pre>
+</body>
+</html>

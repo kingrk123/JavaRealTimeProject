@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Page</title>
+</head>
+<body>
+	<H3>WELCOME TO SHIPMENT TYPE REGISTER PAGE</H3>
+	<pre>
+		Shipment Mode:
+		<select name="shipMode">
+			<option>--Select--</option>
+			<option>Air</option>
+			<option>Ship</option>
+			<option>Train</option>
+			<option>Truck</option>
+		</select>
+	</pre>
+</body>
+</html>
